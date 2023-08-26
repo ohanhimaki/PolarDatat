@@ -10,8 +10,14 @@ namespace AnnanPolariDatat.Api.Controllers;
 [Route("[controller]/[action]")]
 public class AnnanDatat : ControllerBase
 {
-    
-    static string _directory = "..\\Datat";
+    private readonly IConfiguration _configuration;
+    private readonly string _directory;
+
+    public AnnanDatat(IConfiguration configuration)
+    {
+        _configuration = configuration;
+        _directory = configuration.GetValue<string>("DataPath");
+    }
     // for testing purposes
      [HttpGet(Name = "FileList")]
     public IEnumerable<string> ActivityFiles()
