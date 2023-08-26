@@ -1,4 +1,4 @@
-namespace AnnanPolariDatat.Api;
+namespace PolarDatat.Api;
 
 public class WeatherForecast
 {

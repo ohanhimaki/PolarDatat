@@ -1,6 +1,6 @@
 ﻿<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Publish AnnanPolariDatat to folder" type="DotNetFolderPublish" factoryName="Publish to folder">
-    <riderPublish configuration="Release" platform="Any CPU" runtime="win-x86" self_contained="true" target_folder="$PROJECT_DIR$/AnnanPolariDatat.Api/bin/Release/net6.0/win-x86/publish" target_framework="net6.0" uuid_high="8957486070085930367" uuid_low="-8907755703220014015" />
+  <configuration default="false" name="Publish PolarDatat to folder" type="DotNetFolderPublish" factoryName="Publish to folder">
+    <riderPublish configuration="Release" platform="Any CPU" runtime="win-x86" self_contained="true" target_folder="$PROJECT_DIR$/PolarDatat.Api/bin/Release/net6.0/win-x86/publish" target_framework="net6.0" uuid_high="8957486070085930367" uuid_low="-8907755703220014015" />
     <method v="2" />
   </configuration>
 </component>

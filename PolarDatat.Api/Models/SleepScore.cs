@@ -1,4 +1,4 @@
-﻿namespace AnnanPolariDatat.Api.Models;
+﻿namespace PolarDatat.Api.Models;
 
 public class SleepScore
 {

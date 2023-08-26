@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "AnnanPolariDatat.Api": {
+    "PolarDatat.Api": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

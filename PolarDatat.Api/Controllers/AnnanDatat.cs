@@ -1,11 +1,11 @@
 ﻿using System.Text.Json;
-using AnnanPolariDatat.Api.Models;
+using PolarDatat.Api.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
 
-namespace AnnanPolariDatat.Api.Controllers;
+namespace PolarDatat.Api.Controllers;
 [ApiController]
 [Route("[controller]/[action]")]
 public class AnnanDatat : ControllerBase

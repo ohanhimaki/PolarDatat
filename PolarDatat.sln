@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnnanPolariDatat.Api", "AnnanPolariDatat.Api\AnnanPolariDatat.Api.csproj", "{7C4F621F-37FB-4D7F-8461-4B621B9C7441}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolarDatat.Api", "PolarDatat.Api\PolarDatat.Api.csproj", "{7C4F621F-37FB-4D7F-8461-4B621B9C7441}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
