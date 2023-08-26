@@ -8,12 +8,12 @@ using System.Text.Json;
 namespace PolarDatat.Api.Controllers;
 [ApiController]
 [Route("[controller]/[action]")]
-public class AnnanDatat : ControllerBase
+public class PolarDatatController : ControllerBase
 {
     private readonly IConfiguration _configuration;
     private readonly string _directory;
 
-    public AnnanDatat(IConfiguration configuration)
+    public PolarDatatController(IConfiguration configuration)
     {
         _configuration = configuration;
         _directory = configuration.GetValue<string>("DataPath");
